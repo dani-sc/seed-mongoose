@@ -5,7 +5,7 @@
 const path = require('path');
 const _ = require('lodash');
 const async = require('async');
-const inflection = require('inflection');
+// const inflection = require('inflection'); ## removed
 const seed = require(path.join(__dirname, 'lib', 'seed'));
 const schemaGraph = require(path.join(__dirname, 'lib', 'schema_graph'));
 let mongoose;
@@ -57,7 +57,7 @@ function loadSeeds(options) {
         seed.replace(new RegExp(options.suffix + '$'), '');
 
       //pluralize model global id if enable
-      modelName = inflection.classify(modelName);
+      // modelName = inflection.classify(modelName);  ## removed
 
       //grab data to load
       //from the seed data attribute

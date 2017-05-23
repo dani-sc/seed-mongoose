@@ -1,24 +1,28 @@
 {
-  "name": "seed-mongoose",
-  "version": "0.5.0",
-  "description": "DRY data seeding for mongoose",
+  "name": "seed-mongoose-fixed",
+  "version": "0.5.1",
+  "description": "DRY data seeding for mongoose - fixed",
   "main": "index.js",
   "scripts": {
     "test": "grunt test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lykmapipo/seed-mongoose.git"
+    "url": "https://github.com/dani-sc/seed-mongoose.git"
   },
   "author": "Lally Elias",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/lykmapipo/seed-mongoose/issues"
   },
-  "homepage": "https://github.com/lykmapipo/seed-mongoose",
+  "homepage": "https://github.com/dani-sc/seed-mongoose",
   "contributors": [{
     "name": "lykmapipo",
     "github": "https://github.com/lykmapipo"
+  },
+  {
+    "name": "dani-sc",
+    "github": "https://github.com/dani-sc"
   }],
   "keywords": [
     "mongoose",
